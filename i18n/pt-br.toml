@@ -1,71 +1,71 @@
 [home]
-other = "home"
+other = "Home"
 
 [archive]
-other = "archive"
+other = "Archive"
 
 [blog]
-other = "blog"
+other = "Blog"
 
 [tags]
-other = "tags"
+other = "Tags"
 
 [tag_archive]
-other = "tag_archive"
+other = "Tag"
 
 [more_posts]
-other = "more_posts"
+other = "View all posts"
 
 [more_tags]
-other = "more_tags"
+other = "View all tags"
 
 [popular_tags]
-other = "popular_tags"
+other = "Popular tags"
 
 [recent_posts]
-other = "Posts Recentes"
+other = "Recent posts"
 
 [search_posts]
-other = "search_posts"
+other = "Search posts"
 
 [type_to_search]
-other = "type_to_search"
+other = "Type to search..."
 
 [powered_by]
-other = "Feito com {{ .Hugo }} & {{ .Theme }} "
+other = "Powered by {{ .Hugo }} &amp; {{ .Theme }}"
 
 [toc]
-other = "toc"
+other = "Table of Contents"
 
 [published_on]
-other = "published_on"
+other = "Published on"
 
 [link_to_section]
-other = "link_to_section"
+other = "Link to this section"
 
 [code_plain_text]
-other = "code_plain_text"
+other = "plain text"
 
 [toggle_word_wrap]
-other = "toggle_word_wrap"
+other = "Toggle word wrap"
 
 [wrap]
-other = "wrap"
+other = "WRAP"
 
 [copy_code]
-other = "copy_code"
+other = "Copy code"
 
 [copy]
-other = "copy"
+other = "COPY"
 
 [nav_primary]
-other = "nav_primary"
+other = "Primary"
 
 [language_switcher]
-other = "language_switcher"
+other = "Language"
 
 [toggle_theme]
-other = "toggle_theme"
+other = "Toggle theme"
 
 [social_linkedin]
 other = "LinkedIn"
@@ -77,49 +77,61 @@ other = "GitHub"
 other = "X"
 
 [email]
-other = "email"
+other = "Email"
 
 [no_results]
-other = "no_results"
+other = "No results"
 
 [copied]
-other = "copiado"
+other = "COPIED"
 
 [nowrap]
-other = "nowrap"
+other = "NOWRAP"
 
 [no_posts_yet]
-other = "no_posts_yet"
+other = "No posts yet"
 
 [filtering_for]
-other = "filtering_for"
+other = "Filtering for:"
 
 [remove_all_filters]
-other = "remove_all_filters"
+other = "Remove all filters"
 
 [remove_tag]
-other = "remove_tag"
+other = "Remove tag"
 
 [home_most_recent_posts]
-other = "Posts Recentes"
+other = "Recent posts"
+
+[pagination_previous]
+other = "Previous"
+
+[pagination_next]
+other = "Next"
+
+[pagination_nav]
+other = "Pagination"
+
+[pagination_page]
+other = "Page {{ .Current }} of {{ .Total }}"
 
 [subscribe_via]
-other = "subscribe_via"
+other = "Subscribe via {{ .Links }}"
 
 [or_just_say_hello]
-other = "or_just_say_hello"
+other = "or just say hello."
 
 [or_just_say_hello_on]
-other = "or_just_say_hello_on"
+other = "or just say hello on"
 
 [follow_on]
-other = "follow_on"
+other = "follow on {{ .Links }}"
 
 [or_just_say_hello_via]
-other = "or_just_say_hello_via"
+other = "or just say hello by {{ .Link }}"
 
 [enable_soft_wrap]
-other = "enable_soft_wrap"
+other = "Enable soft wrap"
 
 [disable_soft_wrap]
-other = "enable_soft_wrap"
+other = "Disable soft wrap"
