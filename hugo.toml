@@ -1,4 +1,4 @@
-baseURL = "https://wespardim42.github.io/""
+baseURL = "https://wespardim42.github.io/"
 title = "Arcadia"
 
 theme = "hugo-trainsh"
