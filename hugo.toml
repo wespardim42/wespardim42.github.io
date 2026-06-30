@@ -28,7 +28,7 @@ defaultContentLanguageInSubdir = false
     languageName = "Português"
     weight = 2
     title = "Arcadia"
-    contentDir = "content/pt-BR"
+    contentDir = "content/pt-br"
     [[languages.pt-br.menu.main]]
       name = "Home"
       pageRef = "/"
