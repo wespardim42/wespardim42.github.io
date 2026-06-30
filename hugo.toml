@@ -1,0 +1,78 @@
+baseURL = "https://wespardim42.github.io/""
+title = "Arcadia"
+
+theme = "hugo-trainsh"
+
+defaultContentLanguage = "en"
+defaultContentLanguageInSubdir = false
+
+[languages]
+  [languages.en]
+    languageCode = "en-US"
+    languageName = "English"
+    weight = 1
+    title = "Arcadia"
+    contentDir = "content/en"
+    [[languages.en.menu.main]]
+      name = "Home"
+      pageRef = "/"
+      weight = 1
+    [[languages.en.menu.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 2
+
+ 
+  [languages.pt-BR]
+    languageCode = "pt-BR"
+    languageName = "Português"
+    weight = 2
+    title = "Arcadia"
+    contentDir = "content/pt-BR"
+    [[languages.pt-br.menu.main]]
+      name = "Home"
+      pageRef = "/"
+      weight = 1
+    [[languages.pt-br.menu.main]]
+      name = "Blog"
+      pageRef = "/blog"
+      weight = 2
+
+# URL normalization
+disablePathToLower = false # ensure all paths are lowercased
+removePathAccents = true   # normalize diacritics in paths
+preserveTaxonomyNames = false
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
+
+[params]
+  mainSections = ["posts"]
+  # Default visual style for first-time visitors: "retro", "light", or "dark".
+  # Omit or leave empty to default to "retro".
+  # defaultColorScheme = "light"
+
+  [params.social]
+    # Demo links: replace with your own profiles.
+    github = "https://github.com/username"
+    x = "https://x.com/username"
+    linkedin = "https://www.linkedin.com/in/username"
+    # `email` is used as a contact mailto (say hello).
+    email = "you@example.com"
+
+  [params.home]
+    [params.home.recent]
+      limit = 5
+
+[markup]
+  [markup.goldmark.parser.attribute]
+    block = true
+
+  [markup.highlight]
+    # Keep settings aligned with the theme's `render-codeblock.html` hook.
+    lineNos = false
+    lineNumbersInTable = false
+    anchorLineNos = false
+    codeFences = true
+    lineNoStart = 1
+    noClasses = true
